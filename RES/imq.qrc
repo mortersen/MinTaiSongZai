@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="im">
+    <file>Goto.png</file>
+    <file>PageDown.png</file>
+    <file>PageUp.png</file>
+    <file>PDF下载.png</file>
+    <file>Reflash.png</file>
+    <file>阅读文档.png</file>
+    <file>queryit.png</file>
+    <file>歌.gif</file>
+    <file>home.png</file>
+    <file>Quit.png</file>
+    <file>退出.png</file>
+    <file>闽台歌仔.gif</file>
+  </qresource>
+</RCC>
