@@ -50,7 +50,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "闽台歌仔册数据库"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "两岸稀有古本歌仔册数据库"))
         self.toolBar.setWindowTitle(_translate("MainWindow", "toolBar"))
         self.actionHome.setText(_translate("MainWindow", "Home"))
         self.actionHome.setToolTip(_translate("MainWindow", "主页"))
