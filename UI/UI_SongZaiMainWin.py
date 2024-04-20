@@ -41,7 +41,14 @@ class Ui_MainWindow(object):
         icon2.addPixmap(QtGui.QPixmap(":/im/Quit.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.actionQuit.setIcon(icon2)
         self.actionQuit.setObjectName("actionQuit")
+        self.actionAdmin = QtWidgets.QAction(MainWindow)
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap(":/im/Setup.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.actionAdmin.setIcon(icon3)
+        self.actionAdmin.setObjectName("actionAdmin")
         self.toolBar.addAction(self.actionHome)
+        self.toolBar.addSeparator()
+        self.toolBar.addAction(self.actionAdmin)
         self.toolBar.addSeparator()
         self.toolBar.addAction(self.actionQuit)
 
@@ -56,6 +63,8 @@ class Ui_MainWindow(object):
         self.actionHome.setToolTip(_translate("MainWindow", "主页"))
         self.actionQuit.setText(_translate("MainWindow", "Quit"))
         self.actionQuit.setToolTip(_translate("MainWindow", "退出"))
+        self.actionAdmin.setText(_translate("MainWindow", "Admin"))
+        self.actionAdmin.setToolTip(_translate("MainWindow", "后台管理"))
 import RES.imq_rc
 
 

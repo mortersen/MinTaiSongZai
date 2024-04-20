@@ -1,9 +1,19 @@
 <RCC>
   <qresource prefix="im">
+    <file>reload.png</file>
+    <file>add.png</file>
+    <file>delete.png</file>
+    <file>update.png</file>
+    <file>download2.png</file>
+    <file>Setup.png</file>
+    <file>download.png</file>
+    <file>print.png</file>
+    <file>ZoomLarger.png</file>
+    <file>ZoomSmaller.png</file>
+    <file>阅读.png</file>
     <file>Goto.png</file>
     <file>PageDown.png</file>
     <file>PageUp.png</file>
-    <file>PDF下载.png</file>
     <file>Reflash.png</file>
     <file>阅读文档.png</file>
     <file>queryit.png</file>

@@ -1530,7 +1530,7 @@
          </property>
          <property name="icon">
           <iconset>
-           <normalon>:/im/PDF下载.png</normalon>
+           <normalon>:/im/download2.png</normalon>
           </iconset>
          </property>
         </widget>

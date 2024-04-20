@@ -42,6 +42,8 @@
    </attribute>
    <addaction name="actionHome"/>
    <addaction name="separator"/>
+   <addaction name="actionAdmin"/>
+   <addaction name="separator"/>
    <addaction name="actionQuit"/>
   </widget>
   <action name="actionHome">
@@ -66,6 +68,18 @@
    </property>
    <property name="toolTip">
     <string>退出</string>
+   </property>
+  </action>
+  <action name="actionAdmin">
+   <property name="icon">
+    <iconset resource="../RES/imq.qrc">
+     <normaloff>:/im/Setup.png</normaloff>:/im/Setup.png</iconset>
+   </property>
+   <property name="text">
+    <string>Admin</string>
+   </property>
+   <property name="toolTip">
+    <string>后台管理</string>
    </property>
   </action>
  </widget>

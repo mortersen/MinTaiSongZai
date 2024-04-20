@@ -522,7 +522,7 @@ class Ui_SongListWidget(object):
         self.horizontalLayout_5.addItem(spacerItem6)
         self.pbnDownload = QtWidgets.QPushButton(SongListWidget)
         icon6 = QtGui.QIcon()
-        icon6.addPixmap(QtGui.QPixmap(":/im/PDF下载.png"), QtGui.QIcon.Normal, QtGui.QIcon.On)
+        icon6.addPixmap(QtGui.QPixmap(":/im/download2.png"), QtGui.QIcon.Normal, QtGui.QIcon.On)
         self.pbnDownload.setIcon(icon6)
         self.pbnDownload.setObjectName("pbnDownload")
         self.horizontalLayout_5.addWidget(self.pbnDownload)
