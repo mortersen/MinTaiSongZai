@@ -1,15 +1,7 @@
-import os
 import sqlite3
 import hashlib
-from threading import Thread
-from PyQt5.QtWidgets import QWidget,QAbstractItemView,QMessageBox,QDataWidgetMapper,QFileDialog
-from PyQt5.QtSql import QSqlQuery,QSqlQueryModel
-from PyQt5.QtCore import Qt,pyqtSignal
-from PyQt5.QtGui import QIcon
-
+from PyQt5.QtWidgets import QWidget,QMessageBox,QFileDialog
 from MinTaiSongZaiDB import MainWindow
-from CreateDB import SingleDBConnect
-from PDFWidget import WidgetPDFStream
 
 from UI.Ui_AdminAddItemWidget import Ui_AddItemWidget
 
@@ -135,6 +127,7 @@ class AdminAddItemWidget(QWidget):
         self.ui.lineEditTitle.clear()
         self.ui.labelPath.clear()
         self.ui.textEditSummary.clear()
+        QMessageBox.information(self,"提示","数据已重置，可重新填写！",QMessageBox.Yes,QMessageBox.Yes)
 
 
     #槽，响应按钮添加动作
