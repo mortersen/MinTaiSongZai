@@ -1,0 +1,1637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SongListAdminWidget</class>
+ <widget class="QWidget" name="SongListAdminWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1055</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_20" stretch="2,8,5">
+   <item>
+    <widget class="QTreeWidget" name="treeWidgetClass">
+     <property name="headerHidden">
+      <bool>true</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>新建列</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>歌仔册数据库</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>褒歌</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>百样花歌</string>
+        </property>
+        <property name="text">
+         <string>11</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>落阴</string>
+        </property>
+        <property name="text">
+         <string>12</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>清心</string>
+        </property>
+        <property name="text">
+         <string>13</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>青暝缚脚</string>
+        </property>
+        <property name="text">
+         <string>14</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>火车相褒</string>
+        </property>
+        <property name="text">
+         <string>15</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>撞球</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>茶园</string>
+        </property>
+        <property name="text">
+         <string>17</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>其他</string>
+        </property>
+        <property name="text">
+         <string>18</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>传统故事</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>山伯英台</string>
+        </property>
+        <property name="text">
+         <string>200</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>出世</string>
+         </property>
+         <property name="text">
+          <string>201</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>归天</string>
+         </property>
+         <property name="text">
+          <string>202</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>留学</string>
+         </property>
+         <property name="text">
+          <string>203</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>马家</string>
+         </property>
+         <property name="text">
+          <string>204</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>三伯出山</string>
+         </property>
+         <property name="text">
+          <string>205</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>三伯回阳回魂</string>
+         </property>
+         <property name="text">
+          <string>206</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>三伯探英台</string>
+         </property>
+         <property name="text">
+          <string>207</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>游地府</string>
+         </property>
+         <property name="text">
+          <string>208</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>游西湖</string>
+         </property>
+         <property name="text">
+          <string>209</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>纸歌</string>
+         </property>
+         <property name="text">
+          <string>210</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>其他</string>
+         </property>
+         <property name="text">
+          <string>211</string>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>陈三五娘</string>
+        </property>
+        <property name="text">
+         <string>20</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>刘廷英</string>
+        </property>
+        <property name="text">
+         <string>21</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>孟姜女</string>
+        </property>
+        <property name="text">
+         <string>22</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>斩太子</string>
+        </property>
+        <property name="text">
+         <string>23</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>孟丽君</string>
+        </property>
+        <property name="text">
+         <string>24</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>案件</string>
+        </property>
+        <property name="text">
+         <string>25</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>零散的</string>
+        </property>
+        <property name="text">
+         <string>26</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>三勇士</string>
+        </property>
+        <property name="text">
+         <string>27</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>孙悟空</string>
+        </property>
+        <property name="text">
+         <string>28</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>哪吒</string>
+        </property>
+        <property name="text">
+         <string>29</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>白蛇故事</string>
+        </property>
+        <property name="text">
+         <string>30</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>王昭君</string>
+        </property>
+        <property name="text">
+         <string>31</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>玉堂春</string>
+        </property>
+        <property name="text">
+         <string>32</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>玉环记</string>
+        </property>
+        <property name="text">
+         <string>33</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>才子歌</string>
+        </property>
+        <property name="text">
+         <string>34</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>橄榄记</string>
+        </property>
+        <property name="text">
+         <string>35</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>大禹</string>
+        </property>
+        <property name="text">
+         <string>36</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>卖油郎花魁女</string>
+        </property>
+        <property name="text">
+         <string>37</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>最新玉杯记歌</string>
+        </property>
+        <property name="text">
+         <string>38</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>包公</string>
+        </property>
+        <property name="text">
+         <string>39</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>三国</string>
+        </property>
+        <property name="text">
+         <string>40</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>月台梦</string>
+        </property>
+        <property name="text">
+         <string>41</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>郑元和</string>
+        </property>
+        <property name="text">
+         <string>42</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>朱买臣</string>
+        </property>
+        <property name="text">
+         <string>43</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>民间歌谣与民间传说故事</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>死某歌</string>
+        </property>
+        <property name="text">
+         <string>44</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>侥幸歌</string>
+        </property>
+        <property name="text">
+         <string>45</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>手巾歌</string>
+        </property>
+        <property name="text">
+         <string>46</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>雪梅思君</string>
+        </property>
+        <property name="text">
+         <string>47</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>陈白笔</string>
+        </property>
+        <property name="text">
+         <string>48</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>金姑看羊</string>
+        </property>
+        <property name="text">
+         <string>49</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>番婆弄</string>
+        </property>
+        <property name="text">
+         <string>50</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>梁士奇</string>
+        </property>
+        <property name="text">
+         <string>51</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>桃花女</string>
+        </property>
+        <property name="text">
+         <string>52</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>探娘探嫂探哥</string>
+        </property>
+        <property name="text">
+         <string>53</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>十二碗菜</string>
+        </property>
+        <property name="text">
+         <string>54</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>白贼七</string>
+        </property>
+        <property name="text">
+         <string>55</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>其他</string>
+        </property>
+        <property name="text">
+         <string>56</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>劝世教化</string>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>文明维新</string>
+        </property>
+        <property name="text">
+         <string>57</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>地震水灾</string>
+        </property>
+        <property name="text">
+         <string>58</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>商络</string>
+        </property>
+        <property name="text">
+         <string>59</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>婚姻恋爱</string>
+        </property>
+        <property name="text">
+         <string>60</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>劝世</string>
+        </property>
+        <property name="text">
+         <string>61</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>鸦片</string>
+        </property>
+        <property name="text">
+         <string>62</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>人心</string>
+        </property>
+        <property name="text">
+         <string>63</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>游戏逍遥酒色花花世界</string>
+        </property>
+        <property name="text">
+         <string>64</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>摇古歌</string>
+        </property>
+        <property name="text">
+         <string>65</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>人之初</string>
+        </property>
+        <property name="text">
+         <string>66</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>其他</string>
+        </property>
+        <property name="text">
+         <string>67</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>生活知识</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>四民经济</string>
+        </property>
+        <property name="text">
+         <string>68</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>其他</string>
+        </property>
+        <property name="text">
+         <string>69</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>时事新编</string>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>习俗趣味</string>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>蚊子</string>
+        </property>
+        <property name="text">
+         <string>70</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>三婿祝寿</string>
+        </property>
+        <property name="text">
+         <string>71</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>乌猫</string>
+        </property>
+        <property name="text">
+         <string>72</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>叙情</string>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>臭头娘子</string>
+        </property>
+        <property name="text">
+         <string>73</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>白扇记</string>
+        </property>
+        <property name="text">
+         <string>74</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>其他</string>
+        </property>
+        <property name="text">
+         <string>75</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>其他</string>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>地理歌</string>
+        </property>
+        <property name="text">
+         <string>76</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>日本话</string>
+        </property>
+        <property name="text">
+         <string>77</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>电影荒江女侠</string>
+        </property>
+        <property name="text">
+         <string>78</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>其他</string>
+        </property>
+        <property name="text">
+         <string>79</string>
+        </property>
+       </item>
+      </item>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QPushButton" name="pbnReload">
+         <property name="text">
+          <string>重载数据库</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normalon>:/im/Reflash.png</normalon>
+          </iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLineEdit" name="lineEditKeyWorld">
+           <property name="minimumSize">
+            <size>
+             <width>180</width>
+             <height>24</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="placeholderText">
+            <string>请输入关键字词</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pbnSearch">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>搜索</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normalon>:/im/queryit.png</normalon>
+            </iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableView" name="tableView"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="labelTotalRecord">
+         <property name="text">
+          <string>总5555条记录</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="pbnUppage">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normalon>:/im/PageUp.png</normalon>
+            </iconset>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="labelCurrentPage">
+             <property name="text">
+              <string>444</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="font">
+              <font>
+               <pointsize>5</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>/</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="labelPages">
+             <property name="text">
+              <string>1000</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>页</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pbnDownpage">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normalon>:/im/PageDown.png</normalon>
+            </iconset>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="maximumSize">
+            <size>
+             <width>80</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>跳到 </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEditGotoPage">
+           <property name="minimumSize">
+            <size>
+             <width>24</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>60</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="maximumSize">
+            <size>
+             <width>40</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>页</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pbnGotoPage">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normalon>:/im/Goto.png</normalon>
+            </iconset>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>17</width>
+         <height>17</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="title">
+          <string>后台信息管理</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_19">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_17">
+              <item>
+               <widget class="QLineEdit" name="lineEditClass1">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>50</weight>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="readOnly">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_18">
+                <property name="font">
+                 <font>
+                  <family>Arial</family>
+                  <pointsize>11</pointsize>
+                  <weight>50</weight>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(85, 0, 255);</string>
+                </property>
+                <property name="text">
+                 <string>|</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEditClass2">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>50</weight>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="readOnly">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_19">
+                <property name="font">
+                 <font>
+                  <family>Arial</family>
+                  <pointsize>11</pointsize>
+                  <weight>50</weight>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(85, 0, 255);</string>
+                </property>
+                <property name="text">
+                 <string>|</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEditClass3">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                  <weight>50</weight>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="readOnly">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_7">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <item>
+             <widget class="QLabel" name="label_10">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(85, 0, 255);</string>
+              </property>
+              <property name="text">
+               <string>篇名：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditBookName">
+              <property name="font">
+               <font>
+                <pointsize>13</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <item>
+             <widget class="QLabel" name="label_5">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(85, 0, 255);</string>
+              </property>
+              <property name="text">
+               <string>其他题名：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditTitle">
+              <property name="font">
+               <font>
+                <pointsize>13</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_18">
+            <item>
+             <widget class="QLabel" name="label_7">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(85, 0, 255);</string>
+              </property>
+              <property name="text">
+               <string>作者：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditAuthor">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>13</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_16">
+            <item>
+             <widget class="QLabel" name="label_11">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(85, 0, 255);</string>
+              </property>
+              <property name="text">
+               <string>时代：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditYear">
+              <property name="font">
+               <font>
+                <pointsize>13</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_15">
+            <item>
+             <widget class="QLabel" name="label_12">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(85, 0, 255);</string>
+              </property>
+              <property name="text">
+               <string>内容年代：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditAge">
+              <property name="font">
+               <font>
+                <pointsize>13</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_14">
+            <item>
+             <widget class="QLabel" name="label_14">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(85, 0, 255);</string>
+              </property>
+              <property name="text">
+               <string>版样：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditEditStyle">
+              <property name="font">
+               <font>
+                <pointsize>13</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_13">
+            <item>
+             <widget class="QLabel" name="label_13">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(85, 0, 255);</string>
+              </property>
+              <property name="text">
+               <string>页码：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditPages">
+              <property name="font">
+               <font>
+                <pointsize>13</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_12">
+            <item>
+             <widget class="QLabel" name="label_8">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(85, 0, 255);</string>
+              </property>
+              <property name="text">
+               <string>出版社：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditPublish">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>13</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <item>
+             <widget class="QLabel" name="label_20">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(85, 0, 255);</string>
+              </property>
+              <property name="text">
+               <string>出场人物：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEditPerson">
+              <property name="font">
+               <font>
+                <pointsize>13</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QLabel" name="label_21">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(85, 0, 255);</string>
+              </property>
+              <property name="text">
+               <string>摘要：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTextEdit" name="textEditSummary">
+              <property name="font">
+               <font>
+                <pointsize>13</pointsize>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <spacer name="horizontalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbnUpdata">
+             <property name="text">
+              <string>修改更新</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normalon>:/im/update.png</normalon>
+              </iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbnAdd">
+             <property name="text">
+              <string>打开添加</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normalon>:/im/add.png</normalon>
+              </iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_8">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbnDelete">
+             <property name="text">
+              <string>删除记录</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normalon>:/im/delete.png</normalon>
+              </iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <spacer name="horizontalSpacer_10">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>18</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>17</width>
+         <height>13</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <action name="action_Admin">
+   <property name="icon">
+    <iconset resource="../RES/imq.qrc">
+     <normaloff>:/im/Setup.png</normaloff>:/im/Setup.png</iconset>
+   </property>
+   <property name="text">
+    <string>后台管理</string>
+   </property>
+   <property name="toolTip">
+    <string>后台管理</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../RES/imq.qrc"/>
+ </resources>
+ <connections/>
+</ui>
